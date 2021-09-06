@@ -1,5 +1,11 @@
-<p>Here is your answer:</p>
+<div id='question'>
+<h4>Here's what you asked:</h4>
+<p><%= params[:question] %></p>
+</div>
 
-<%= @answer %>
+<div id='answer'>
+<h4>And here's my answer!</h4>
+<p><%= @answer %></p>
+</div>
 
 <%= link_to 'Ask again!', 'ask' %>
