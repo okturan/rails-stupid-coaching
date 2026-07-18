@@ -13,7 +13,7 @@ The application asks the user for a message and returns one of three determinist
 
 ## Historical local setup
 
-The lockfile targets Ruby 2.7.3 and Rails 6.0. This is a preserved historical toolchain, not a claim of current Rails support.
+The lockfile targets Ruby 2.7.3 and Rails 6.0. This is a preserved historical toolchain with known dependency advisories, not a claim of current Rails support. If inspected, run it only in an isolated local environment; do not expose or deploy this dependency set.
 
 ```bash
 bundle install
